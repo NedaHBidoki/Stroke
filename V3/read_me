@@ -1,0 +1,5 @@
+The code uses multinomial logistic regression (logistic regression in sklearn implemented in python 2.7 with `auto` option) to predict sis3 from plasma proteomic data inaddition to clinical features. 
+
+There are two main variable to modify `clinical_features` and `fs_method` (in lines 28 and 33) depending on which bar plot is going to be validated.
+`clinical_features` variable is the set of clinical features added to the proteomic data and `fs_method` declares weather all the proteomic data (after removing those with missing values`)
+is going to be incorporated in the model (fs_method = 'no filter') or only the highly correlated proteins which are 180 proteins (fs_method = 'sig').
