@@ -1,0 +1,6 @@
+"model"	"features"	"target"	"spearman_stat"	"spearman_pvalue"	"log10_spearman_pvalue"	"pearson_stat"	"pearson_pvalue"	"log10_pearson_pvalue"	"rmse"
+"1"	"LogisticRegression"	"sig proteins + Time Since Stroke + Age"	"[SIS3]"	0.02	0.84	0.07	-0.02	0.86	0.07	23.28
+"2"	"LogisticRegression"	"all proteins + "	"[SIS3]"	0.21	0.05	1.28	0.24	0.03	1.54	20.86
+"3"	"LogisticRegression"	"all proteins + Time Since Stroke"	"[SIS3]"	0.24	0.03	1.54	0.28	0.01	2.08	20.13
+"4"	"LogisticRegression"	"all proteins + Age"	"[SIS3]"	0.3	0.01	2.28	0.3	0.01	2.23	19.93
+"5"	"LogisticRegression"	"all proteins + Age + Time Since Stroke"	"[SIS3]"	0.36	0	3.08	0.41	0	4.09	18.81
